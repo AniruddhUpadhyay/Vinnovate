@@ -1,0 +1,151 @@
+.VinnovateText span{
+    font-weight: 100;
+}
+.vinnovateHead{
+    font-weight: 500;
+}
+.VinnovatetagLine{
+    color:#ff007f;
+    font-weight: 400;
+}
+.logo{
+    animation: rotation 5s infinite linear;
+    width: 10%;
+    border-radius: 50%;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .serviceCard{
+      margin-top:30px;
+  }
+  .serviceCard:hover{
+    cursor:pointer;
+}
+.serviceCard:hover h4{
+    cursor:pointer;
+    color:#ecb807;
+}
+.serviceCard:hover .service-icon{
+    background-color: #ecb807;
+    color: #fff;
+}
+  .serviceCard:hover .fa{
+    color:#fff;
+    transition:1s ease all;
+    transform: rotate(360deg);
+}
+.serviceCard:hover .text-faded{
+    color:#ecb807;
+}
+
+.portfolio-item .img-fluid{
+    height: 370px;
+    width: 100%;
+    filter: brightness(0.5);
+}
+.velloreLogoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.strong{
+    font-weight: 700;
+}
+.footerInfo{
+    text-align: left;
+}
+.velloreLogoFooter > div{
+    padding:40px 0px;
+}
+.footer section{
+    margin-bottom:60px;
+}
+ul.cardUl{
+    list-style-type:none;
+    text-align:center;
+}
+.cardUl > li{
+    display: inline-block;
+    width: 240px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.board-members .img-fluid{
+    height:275px;
+    width:100%;
+    filter: brightness(0.5);
+}
+.team{
+    position:relative;
+    margin-bottom:20px;
+}
+.team .spk-info{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    /* z-index: 999; */
+    background: #33333396;
+    padding: 10px;
+    transition:0.6s ease all;
+}
+.team:hover .spk-info{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    /* z-index: 999; */
+    background: #110280;
+    padding: 10px;
+    cursor:pointer;
+    transition:0.5s ease all;
+}
+.gradient{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.spk-info h3,h5{
+    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.team:hover{
+    cursor:pointer;
+}
+.team:hover .img-fluid{
+    filter:brightness(1);
+    transition:0.6s ease all;
+}
+.developer{
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background: #323232e8;
+    font-size: 12px;
+    padding: 2px 0px;
+    clip-path:polygon(43% 0%, 56% 0%, 100% 100%, 0% 100%);
+}
+.developer a{
+    color:#e0aa29
+}
+.btn{
+    font-weight: 100;
+}
+.scroll-to-top{
+    bottom:30px;
+}
+.footer{
+    position:relative;
+}
+.topLogo{
+    max-width: 100%;
+}
